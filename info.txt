@@ -1,0 +1,14 @@
+git init
+git add .
+git commit -m "first message"
+
+
+
+git config --global user.email "manoj.bhalekar769@gmail.com"
+  git config --global user.name "manojbhalekar"
+
+
+
+git branch -M main
+git remote add origin https://github.com/manojbhalekar/gitpractice.git
+git push -u origin main
